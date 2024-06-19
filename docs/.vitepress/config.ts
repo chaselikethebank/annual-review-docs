@@ -56,7 +56,9 @@ export default {
         items: [
           { text: "What's a funnel?", link: "/whatsafunnel" },
           { text: "Let's Go Funnels", link: "/funnels" },
-          { text: "Press Funnels as a Function of Live (also a funnel)", link: "/earned-funnels" },
+          { text: "Sales Funnels", link: "/marketing-funnels" },
+
+          { text: "Press Funnels as a Function of Live (also a funnel)", link: "/earned-funnel" },
           { text: "Live Funnels", link: "/live-funnels" },
 
         ],

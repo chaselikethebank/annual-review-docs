@@ -9,4 +9,3 @@
 - Build a mail merge template
 - Set a calendar to send each booker a booking inquiry email the season following the date of the festival
 - 1% of festivals get booked
--
