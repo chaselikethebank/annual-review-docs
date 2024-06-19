@@ -3,34 +3,35 @@ layout: home
 
 # Hero section
 hero:
-  name: Adocs
-  text: Static docs template built with VitePress.
+  name: Music and Systems
+  text: Be careful with that you get good at. 
   image:
     src: /logo-big.svg
-    alt: Adocs logo
-  tagline: A free to use template for creating docs for your projects
+    alt: Music and Systems logo
+  tagline: Building self-sufficient music creation systems with intentionality 
   actions:
     - theme: brand
       text: Get Started
       link: /guide
     - theme: alt
       text: View on GitHub
-      link: https://github.com/Evavic44/adocs
+      link: https://github.com/Evavic44/Music and Systems
 
 # Features section
 features:
-  - icon: ⚡️
-    title: Adocs, The DX that can't be beat
-    details: Lorem ipsum...
-  - icon: 🎉
-    title: Power of Vue meets Markdown
-    details: Lorem ipsum...
-  - icon: 🔥
-    title: Simple and minimal, always
-    details: Lorem ipsum...
-  - icon: 🎀
-    title: Stylish and cool
-    details: Lorem ipsum...
+  - icon: 🧭
+    title: Directionality
+    details: Where are resources acruing, in here or out there?
+  - icon: 🏗️
+    title: Infrastructure
+    details: Uses economies of scale and funnels to create asymetric wins
+  - icon: 🍀
+    title: Luck Real Estate
+    details: Expand responsibility, control, and network; expand the Luck Real Estate
+  - icon: 📐
+    title: Measure and Monitor
+    details: When to buy market share and when to buy infrastructure
+ 
 
 # Meta property
 head:
@@ -39,7 +40,7 @@ head:
       content: website
   - - meta
     - property: og:title
-      content: Adocs
+      content: Music and Systems
   - - meta
     - property: og:image
       content: https://user-images.githubusercontent.com/62628408/200117602-4b274d14-b1b2-4f61-8dcd-9f9482c677a0.png
@@ -48,7 +49,7 @@ head:
       content: https://vitejs.dev/blog/announcing-vite3
   - - meta
     - name: title
-      content: Adocs
+      content: Music and Systems
   - - meta
     - name: twitter:card
       content: https://user-images.githubusercontent.com/62628408/200117602-4b274d14-b1b2-4f61-8dcd-9f9482c677a0.png
@@ -58,10 +59,11 @@ head:
       href: logo.svg
 ---
 
-<!-- Custom home layout -->
+<!-- Custom home layout 
 <div class="custom-layout">
   <h1>🏀</h1>
-  <h1>Custom Layout</h1>
-  <p>This section was added using plain HTML and CSS.</p>
-  <a href="https://github.com/Evavic44/adocs/blob/main/docs/index.md#custom-layout" target="_blank" class="btn">Source Code</a>
+  <h1>👀</h1>
+   <h1>🏀</h1>
+   
 </div>
+-->
