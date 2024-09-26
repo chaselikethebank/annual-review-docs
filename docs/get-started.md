@@ -1,3 +1,4 @@
-# Get Started
+# The Whole => The Parts
 
-Here's how to get started with [VitePress](https://vitepress.com)
+What are some of the spaces/parts/systems that a label/rights managmenet system can be broken into? 
+

@@ -3,16 +3,16 @@ layout: home
 
 # Hero section
 hero:
-  name: Music and Systems
-  text: Be careful with that you get good at. 
+  name: Music Systems
+  text: Iterative approaches towards success. 
   image:
     src: /logo-big.svg
-    alt: Music and Systems logo
-  tagline: Building self-sufficient music creation systems with intentionality 
+    alt: Music Systems logo
+  tagline: Ideas on infrastructure, leverage, and convering blindspots
   actions:
     - theme: brand
-      text: Get Started
-      link: /guide
+      text: Getting Started
+      link: /somewins.md
     - theme: alt
       text: View on GitHub
       link: https://github.com/Evavic44/Music and Systems
@@ -40,7 +40,7 @@ head:
       content: website
   - - meta
     - property: og:title
-      content: Music and Systems
+      content: Music Systems
   - - meta
     - property: og:image
       content: https://user-images.githubusercontent.com/62628408/200117602-4b274d14-b1b2-4f61-8dcd-9f9482c677a0.png
@@ -49,7 +49,7 @@ head:
       content: https://vitejs.dev/blog/announcing-vite3
   - - meta
     - name: title
-      content: Music and Systems
+      content: Music Systems
   - - meta
     - name: twitter:card
       content: https://user-images.githubusercontent.com/62628408/200117602-4b274d14-b1b2-4f61-8dcd-9f9482c677a0.png

@@ -1,7 +1,5 @@
 # Music Career Overview
-Before covid I was full time in music.
-
-Music rights management, buying / selling / licensing the rights to records. Booking tours, building sales funnels.
+I was full time in music till 2021.
 
 Some important notes for framing to what scale I have found success in the space:
 
@@ -15,7 +13,7 @@ Some important notes for framing to what scale I have found success in the space
 - Worked with over 65 artists/acts.
 - Achieved 10 million streams for my holding company.
 - Produced/manufactured 7 12’’ vinyl records and a few 7’’ records.
-- Secured 6 syncs.
+- Secured 6 syncs - Netflix, Showtime, CW.
 
 ### Partnerships
 - The Orchard (Sony)
@@ -33,8 +31,7 @@ Some important notes for framing to what scale I have found success in the space
 - Took on a private equity angel investor in 2016.
 - Bought it all back in 2020.
 
-## Media Presence
-
+ 
 ### Sirius XMU
 - The Carles Show (played 7-8 of the records I released)
 - Gorilla vs. Bear
@@ -49,7 +46,6 @@ Some important notes for framing to what scale I have found success in the space
 
 ## Collaborations
 
-### Notable People Worked With
 - Yuuki Mathews (bassist/MD for The Shins, Sufjan Stevens)
 - Brad Petering (TV Girl)
 - Todd Weinstock (Glassjaw)
@@ -74,6 +70,7 @@ Some important notes for framing to what scale I have found success in the space
 - Animal Collective
 - Portugal the Man
 
+
 ## Festivals
 - Day for Night
 - Free Press Summer Fest
@@ -81,5 +78,6 @@ Some important notes for framing to what scale I have found success in the space
 
 ## Additional Achievements
 - Built and sold a database of booking agents and artists to Pegstar / White Oak Music Hall.
-- Built a PR list for Orchard Marketing Resources.
-- Pre-save campaign results.
+- Built a PR list for earned media.
+- Built systems for new artists to get press and book tours.
+

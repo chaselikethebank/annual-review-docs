@@ -1,3 +1,7 @@
+# More On Sales Funnels
+
+How can funnels breakdown? 
+
 ## Positive Funnel
 When something is creating positive cash flow.
 

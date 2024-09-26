@@ -1,5 +1,5 @@
 export default {
-  title: "Music and Systems",
+  title: "Music Systems",
   description: "An awesome docs template built by me",
   lang: 'en-US',
   cleanUrls: true,
@@ -8,15 +8,15 @@ export default {
   
   themeConfig: {
     logo: "/logo.svg",
-    siteTitle: "Music and Systems",
+    siteTitle: "Music Systems",
     search: {
       provider: "local",
     },
     // Navbar Link
     nav: [
-      { text: "About", link: "/about" },
+      // { text: "About", link: "/about" },
       { text: "Contact", link: "/contact" },
-      { text: "Guide", link: "/guide" },
+      // { text: "Guide", link: "/guide" },
       { text: "Configs", link: "/configs" },
       // {
       //   // Dropdown Menu
@@ -51,6 +51,23 @@ export default {
         ],
       },
       {
+        text: "Basics", 
+        collapsible: true, 
+        items: [
+          { text: "Star Here"},
+          { }
+        ]
+      },
+      {
+        text: "Hub and Spoke",
+        collapsible: true,
+        items: [
+        
+          { text: "The Whole => The Parts", link: "/get-started" },
+          { text: "Sign, Sign, Sign", link: "/sign_artists"}
+        ],
+      },
+      {
         text: "Funnels",
         collapsible: false,
         items: [
@@ -63,14 +80,7 @@ export default {
 
         ],
       },
-      {
-        text: "Section C",
-        collapsible: true,
-        items: [
-          { text: "Introduction", link: "/introduction" },
-          { text: "Getting Started", link: "/getting-started" },
-        ],
-      },
+      
     ],
     // you can disable the previous and next page here
     docFooter: {
