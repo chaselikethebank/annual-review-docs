@@ -79,7 +79,7 @@ What does a music supervisor need from us?
 ```
 Even more...
 ```
-What does a day in a life look like as a music supervisor?
+What does a day in the life of a music supervisor look like?
 ```
 
 ## Thought Experiment: Music Supervisor Workload
@@ -105,7 +105,6 @@ A single music supervisor is responsible:
 | **Total Contracts** | 1,000 (1 per placement)           |
 | **Total $ Decisions** | $15,000,000                     |
 
- 
 
 ### Budget Estimate
 
