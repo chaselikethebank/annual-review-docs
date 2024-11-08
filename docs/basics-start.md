@@ -84,15 +84,7 @@ What does a day in the life of a music supervisor look like?
 
 ## Thought Experiment: Music Supervisor Workload
 
-A single music supervisor is responsible:
-
-- **Shows per Quarter**: ~10 shows  
-- **Episodes per Show**: ~8 episodes  
-- **Sync Placements per Episode**: ~10 placements  
-- **Communication per Placement**: ~10 emails and 1 contract 
-- **Budgent per Episode**:  ~$150,000
-
----
+Let's start w some assumptions on how many shows they are responsible for and slot it into a 3 month term. 
 
 ### Quarterly Breakdown
 
@@ -100,32 +92,48 @@ A single music supervisor is responsible:
 |---------------------|------------------------------------|
 | **Total Shows**     | 10                                 |
 | **Total Episodes**  | 100 (10 shows × 10 episodes)       |
-| **Total Placements**| 1,000 (100 episodes × 10)         |
-| **Total Emails**    | 10,000 (1,000 placements × 10)    |
-| **Total Contracts** | 1,000 (1 per placement)           |
-| **Total $ Decisions** | $15,000,000                     |
+| **Total Placements**| 1,000 (100 episodes × 10)          |
+| **Total Listens**   | 10 wrong choices / 1 right choice  |
+| **Total Emails**    | 10,000 (1,000 placements × 10)     |
+| **Total Contracts to Finalize** | 1,000 (1 per placement)            |
+| **Total $ Decisions** | $15,000,000                      |
 
+That means, if everything goes according to this bases plan they have to do _this_ much work a day:
 
-### Budget Estimate
+### Daily Breakdown
 
-If each show has an approximate budget of **$150,000**, this amount would scale accordingly across episodes and placements.
+| Category            | Quantity                           |
+|---------------------|------------------------------------|
+| **Total Placements**| 4 +/-         |
+| **Total Listens**   | 39 +/-   |
+| **Total Emails**    | 39 +/-     |
+| **Total Contracts to Finalize** | 4 +/-           |
+| **Total $ Decisions** | $60,000            |
 
 ---
 
-
 ### Boiling up
 
-So, what can I do as a music rights manager / label to make it easier for a music supervisor and in tern my sync partner? 
+What assumtions can be made about a music supervisor in terms of their values systems and closing deals? 
 
 - Carte Blanche control, not just "Access" 
 - Large Catalogs or why bother (controlling 10 songs < controlling 100 songs) 
 - Genre Specific (a label that covers a wide surface area causes friction and dissolves brand ID both for the label and the sync partner's partners)
-- Well documented (indie, female vox, 85bpm) becuase that is how requests come to them - so that is their mental model / way of organizing in their mind
+- Well documented (indie, female vox, 85bpm, Coming of age) becuase that is how requests come to them - so that is their mental model / way of organizing in their mind
 - The ability to say "Yes" before consulting - Move fast and beat others to the starting line
 - Batch Batch Batch 
 
-NOW THAT IS HOW YOU GET SYNCS!
 
+### What's good for the goose ...
+If it makes it easier for a music supervisor, that value system will trickle down to the sync house and that trickles down to the rights manager and then trickles down to the artist. for example: 
+
+If a supervisor needs to close a sync based on "{Genre}, {Vocal}, {Tempo}, {Adjective}" the artist=> label => sync house that delivers their work accordingly to the  wins!
+
+``` lesson-here  
+Pick a value and build in a way that ads leverage for the supervisor
+```
+
+THAT IS HOW YOU GET SYNCS!
 
 ### Circling back 
 
