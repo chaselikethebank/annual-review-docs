@@ -99,7 +99,7 @@ A single music supervisor is responsible:
 | Category            | Quantity                           |
 |---------------------|------------------------------------|
 | **Total Shows**     | 10                                 |
-| **Total Episodes**  | 100 (10 shows × 8 episodes)       |
+| **Total Episodes**  | 100 (10 shows × 10 episodes)       |
 | **Total Placements**| 1,000 (100 episodes × 10)         |
 | **Total Emails**    | 10,000 (1,000 placements × 10)    |
 | **Total Contracts** | 1,000 (1 per placement)           |
