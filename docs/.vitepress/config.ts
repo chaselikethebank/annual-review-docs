@@ -54,7 +54,7 @@ export default {
         text: "Basics", 
         collapsible: true, 
         items: [
-          { text: "Star Here"},
+          { text: "Star Here", link: "/basics-start"},
           { }
         ]
       },
