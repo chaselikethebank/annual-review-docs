@@ -1,32 +1,23 @@
 export default {
-  title: "Music Systems",
-  description: "An awesome docs template built by me",
+  title: "Annual Review App Docs",
+  description: "Documenting the Annual Review App build and knowledge base",
   lang: 'en-US',
   cleanUrls: true,
-  // If this is disabled, when building it it will give deadlink errors if your markdown has the wrong links
-  ignoreDeadLinks: true,
+   ignoreDeadLinks: true,
   
   themeConfig: {
     logo: "/logo.svg",
-    siteTitle: "Music Systems",
+    siteTitle: "Annual Review App",
     search: {
       provider: "local",
     },
     // Navbar Link
     nav: [
-      // { text: "About", link: "/about" },
+      
       { text: "Contact", link: "/contact" },
-      // { text: "Guide", link: "/guide" },
+     
       { text: "Configs", link: "/configs" },
-      // {
-      //   // Dropdown Menu
-      //   text: "Changelog",
-      //   items: [
-      //     { text: "v0.0.1", link: "/item-1" },
-      //     { text: "v0.0.2", link: "/item-2" },
-      //     { text: "v0.0.3", link: "/item-3" },
-      //   ],
-      // },
+      
     ],
     // Social Icons
     socialLinks: [
@@ -46,32 +37,31 @@ export default {
         text: "Start Here",
         collapsible: true,
         items: [
-          { text: "Introduction", link: "/somewins" },
+          { text: "Introduction", link: "/start" },
           // { text: "Getting Started", link: "/getting-started" },
         ],
       },
       {
-        text: "Basics", 
+        text: "Vision", 
         collapsible: true, 
         items: [
-          { text: "Star Here", link: "/basics-start"},
+          { text: "Vision", link: "/vision"},
           { }
         ]
       },
       {
-        text: "Hub and Spoke",
+        text: "User Stories",
         collapsible: true,
         items: [
         
-          { text: "The Whole => The Parts", link: "/get-started" },
-          { text: "Sign, Sign, Sign", link: "/sign_artists"}
+          { text: "User Stories", link: "/user-stories" },
         ],
       },
       {
-        text: "Funnels",
+        text: "Requirements",
         collapsible: false,
         items: [
-          { text: "What's a funnel?", link: "/whatsafunnel" },
+          { text: "Requirements", link: "/whatsafunnel" },
           { text: "Let's Go Funnels", link: "/funnels" },
           { text: "Sales Funnels", link: "/marketing-funnels" },
 

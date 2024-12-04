@@ -155,6 +155,7 @@ import {
   vModelText,
   vShow,
   version,
+  vue_runtime_esm_bundler_exports,
   warn,
   watch,
   watchEffect,
@@ -169,6 +170,29 @@ import {
   withModifiers,
   withScopeId
 } from "./chunk-VW6LIGBK.js";
+
+// ../../../../../../opt/homebrew/lib/node_modules/vitepress/lib/vue-demi.mjs
+var isVue2 = false;
+var isVue3 = true;
+var Vue2 = void 0;
+function install() {
+}
+function set(target, key, val) {
+  if (Array.isArray(target)) {
+    target.length = Math.max(target.length, key);
+    target.splice(key, 1, val);
+    return val;
+  }
+  target[key] = val;
+  return val;
+}
+function del(target, key) {
+  if (Array.isArray(target)) {
+    target.splice(key, 1);
+    return;
+  }
+  delete target[key];
+}
 export {
   BaseTransition,
   BaseTransitionPropsValidators,
@@ -188,6 +212,8 @@ export {
   Transition,
   TransitionGroup,
   TriggerOpTypes,
+  vue_runtime_esm_bundler_exports as Vue,
+  Vue2,
   VueElement,
   assertNumber,
   callWithAsyncErrorHandling,
@@ -222,6 +248,7 @@ export {
   defineProps,
   defineSSRCustomElement,
   defineSlots,
+  del,
   devtools,
   effect,
   effectScope,
@@ -241,6 +268,7 @@ export {
   initCustomFormatter,
   initDirectivesForSSR,
   inject,
+  install,
   isMemoSame,
   isProxy,
   isReactive,
@@ -249,6 +277,8 @@ export {
   isRuntimeOnly,
   isShallow,
   isVNode,
+  isVue2,
+  isVue3,
   markRaw,
   mergeDefaults,
   mergeModels,
@@ -289,6 +319,7 @@ export {
   resolveDynamicComponent,
   resolveFilter,
   resolveTransitionHooks,
+  set,
   setBlockTracking,
   setDevtoolsHook,
   setTransitionHooks,
@@ -340,4 +371,13 @@ export {
   withModifiers,
   withScopeId
 };
-//# sourceMappingURL=vue.js.map
+/*! Bundled license information:
+
+vitepress/lib/vue-demi.mjs:
+  (**
+   * vue-demi v0.14.7
+   * Copyright (c) 2020-present, Anthony Fu
+   * @license MIT
+   *)
+*/
+//# sourceMappingURL=vue-demi.js.map
