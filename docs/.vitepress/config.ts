@@ -16,7 +16,6 @@ export default {
       
       { text: "Contact", link: "/contact" },
      
-      { text: "Configs", link: "/configs" },
       
     ],
     // Social Icons
@@ -61,13 +60,7 @@ export default {
         text: "Requirements",
         collapsible: false,
         items: [
-          { text: "Requirements", link: "/whatsafunnel" },
-          { text: "Let's Go Funnels", link: "/funnels" },
-          { text: "Sales Funnels", link: "/marketing-funnels" },
-
-          { text: "Press Funnels as a Function of Live (also a funnel)", link: "/earned-funnel" },
-          { text: "Live Funnels", link: "/live-funnels" },
-
+          { text: "Requirements", link: "/requirements" },
         ],
       },
       
