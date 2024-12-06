@@ -89,9 +89,21 @@ Jotform is an online form builder that allows users to create forms, collect res
 
 ## 4. Custom App Solution
 
-### Simple Feature Set
+### Tradeoffs:
 
-A simpler feature set tailored to the use case makes things less expensive and easier for new users. 
+#### Pros:
+- A simpler feature set tailored to the use case makes things less expensive and easier for new users. 
+- Own it! 
+- Yours to give away - make it open source even!
+- Onboarding is simple; very shallow learning curve when learning to use an app that only does 3+/- things!
+
+#### Cons:
+- Blindspots in development are difficult to overcome. 
+- Development time is much longer than paying for a SASS solution.
+- Decision Fatigue is real! Everything from rounded corners or squre corners, sql servers or mongo db, react or vue. 
+- Maintanence is an internal responsibility now. 
+
+### Potential Feature Set: 
 
 #### Boss's Create Guides
 Admin users (bosses) have the ability to create and manage guides, which serve as templates or instructions for performance reviews, goal-setting, or other processes within the app.
@@ -110,4 +122,144 @@ Individual user pages display their relevant information, such as submitted form
 
 ---
 
-This **Custom App Solution** built with **Laravel** provides a streamlined and user-centric design, focusing on simple, easy-to-use features that empower both admins and users to manage performance and feedback effectively.
+ 
+
+
+## 5. Open Source Solutions 
+
+### Generic Feature Set
+
+Apps that have been built braodly and with generic feature sets might have some utility but require reworking. It can be diff to recognize where these sets of apps might have working solutions, where they need amendment and then the time/resource it takes to execute on.  
+
+### 1. Odoo || Performance Appraisals
+
+- An open-source performance management software that can create appraisals quickly and efficiently review employees' performances.
+
+### Tradeoffs:
+
+#### Pros:
+- Comprehensive and customizable appraisal process with automated scheduling.
+- Flexible goal-setting and survey creation for different departments and roles.
+- Integration with other Odoo modules for a complete HR management solution.
+- User-friendly interface with various views (Kanban, list, Gantt, calendar).
+- YouTube Tutorials
+
+#### Cons: 
+- Steep learning curve for new users, especially those unfamiliar with ERP systems.
+- Complex customizations may require technical expertise or third-party assistance and Odoo is famously expensive.
+- Potential performance issues with large-scale implementations.
+- Upgrading between versions can be challenging, especially with extensive customizations.
+- Need to set up a server to keep costs low I believe. 
+
+#### Cost:
+- Community Edition: Free, but limited to one app and its dependencies.
+- Enterprise Edition: Pricing based on number of users, which may impact scalability costs.
+
+#### Repo:
+[odoo/odoo](https://github.com/odoo/odoo.git)
+
+#### Link: 
+[YouTube Demo](https://www.youtube.com/watch?v=0doS9RfqS-4)
+
+### 2. Employee Performance Review Feedback Management System
+
+- A MERN stack project offering features for both administrators and employees, including managing performance reviews and submitting feedback.
+
+### Tradeoffs:
+
+#### Pros:
+- Built on modern MERN stack (MongoDB, Express.js, React, Node.js)
+- Separate features for administrators and employees
+- Customizable for specific organizational needs
+- Potential for real-time updates and responsive design
+
+#### Cons:
+- Has the wrong naming conventions, "Feedbacks" instead of "Reviews"
+- Doesn't have email built in - would need to build that on top of
+- Doesn't have dynamic quiestions built out, currently a simple single input field 
+
+
+#### Cost:
+- Free and open-source
+- Hosting and maintenance costs may apply depending on deployment $20 - $60 monthly +/- or Turn it on Nov-Mar and buy a really fast server, then shut it down?
+
+#### Repo:
+[https://github.com/ParmodKumar28/Employee-Review-System]
+
+#### Link:
+[Working Demo](https://employee-review-system-r8tw.onrender.com/api/employee/register)
+[Video Demo](https://www.youtube.com/watch?v=mvHhUozvC0w&feature=youtu.be)
+
+
+
+### 3. Monica
+
+- A personal CRM built with Laravel 11 that can be adapted for performance reviews, using the latest Laravel version with Jetstream Inertia stack.
+
+### Tradeoffs:
+
+#### Pros:
+- Built on the latest Laravel framework, ensuring modern development practices
+- Jetstream Inertia stack provides a robust frontend
+- Highly customizable for various use cases, including performance reviews
+- Active development and community support
+
+#### Cons:
+- Primarily designed as a personal CRM, requiring adaptation for corporate use
+- May need significant modifications for comprehensive performance review features
+- Learning curve for developers unfamiliar with Laravel or Inertia.js
+
+#### Cost:
+- Free for self-hosted version
+- Hosting and customization costs may apply
+
+#### Links: 
+[monicahq/monica](https://github.com/monicahq/monica)
+
+[monica hq](https://www.monicahq.com/)
+
+### 4. InvoiceShelf
+
+- An open-source invoicing solution built with Laravel 10 that could be customized for annual reviews.
+
+### Tradeoffs:
+
+#### Pros:
+- Built on Laravel 10, offering a solid foundation for customization
+- Open-source, allowing for extensive and absolute modifications
+- Potential for integration with existing Laravel-based systems or libraries for example the mail notification feature
+
+#### Cons:
+- Primarily designed for invoicing, requiring significant adaptation for performance reviews
+- May lack specific features needed for comprehensive employee evaluations
+- Customization could be time-consuming and require Laravel expertise
+
+#### Cost:
+- Free and open-source
+- Development and hosting costs for customization and deployment
+
+### 5. Krayin Laravel CRM
+
+- A free and open-source Laravel CRM solution that can be adapted for complete customer lifecycle management, including performance reviews.
+
+### Tradeoffs:
+
+#### Pros:
+- Built on Laravel, offering flexibility and scalability
+- Modular approach allows for easy customization
+- Includes features like custom attributes that could be adapted for reviews
+- Active development and community support
+- Famously championed 
+- Incredible UI, Dashboard, Modals // LOOKS EXPENSIVE!
+
+#### Cons:
+- Designed for customer management, requiring significant significant modifications for employee reviews - will need to rip out maybe %95 of the code
+- Learning curve for those unfamiliar with Laravel, but i like Laravel
+
+#### Cost:
+- Free and open-source
+- Hosting and potential customization costs may apply
+
+#### Links: 
+[Krayin HQ](https://krayincrm.com/)
+[Demo](https://demo.krayincrm.com/)
