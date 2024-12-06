@@ -187,7 +187,7 @@ Apps that have been built braodly and with generic feature sets might have some 
 [https://github.com/ParmodKumar28/Employee-Review-System]
 
 #### Link:
-[Working Demo](https://employee-review-system-r8tw.onrender.com/api/employee/register)
+[Working Demo](https://employee-review-system-r8tw.onrender.com/api/employee/register)<br/>
 [Video Demo](https://www.youtube.com/watch?v=mvHhUozvC0w&feature=youtu.be)
 
 
@@ -214,7 +214,7 @@ Apps that have been built braodly and with generic feature sets might have some 
 - Hosting and customization costs may apply
 
 #### Links: 
-[monicahq/monica](https://github.com/monicahq/monica)
+[monicahq/monica](https://github.com/monicahq/monica)<br/>
 
 [monica hq](https://www.monicahq.com/)
 
@@ -261,5 +261,5 @@ Apps that have been built braodly and with generic feature sets might have some 
 - Hosting and potential customization costs may apply
 
 #### Links: 
-[Krayin HQ](https://krayincrm.com/)
+[Krayin HQ](https://krayincrm.com/) <br/>
 [Demo](https://demo.krayincrm.com/)
