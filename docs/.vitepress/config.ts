@@ -63,6 +63,13 @@ export default {
           { text: "Requirements", link: "/requirements" },
         ],
       },
+      {
+        text: "Future Feature Set", 
+        collapsible: false, 
+        items: [
+          { text: "Future Feature Set", link: "/future"}
+        ]
+      }
       
     ],
     // you can disable the previous and next page here
