@@ -49,7 +49,7 @@ class IdentifyTenant
 
 ```
 
-## # Sanctum in Laravel
+## Sanctum in Laravel
 
 Sanctum is a lightweight authentication package that provides:
 
