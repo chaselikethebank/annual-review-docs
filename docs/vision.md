@@ -62,3 +62,29 @@ The organization requires a centralized web application for managing end-of-year
 - Create comprehensive Figma designs for approval.
 - Write code only after final approval of designs and features.
  
+
+ ## Guides as Reviews, A Design Architecture
+
+## Job Role and Guide Setup
+- A "Period" is created defining a term for reviews.
+- When creating a **JobRole**, the admin defines a set of responsibilities or tasks in the **Guide**.
+- Each responsibility in the Guide acts as a "template" for generating review questions.
+
+## Review Creation
+Reviews criteria are created 1/2 per the period's universal questions/prompts and 1/2 per the subjective user's role.
+
+- When a review is initiated:
+  - The app pulls the Guide for the user's JobRole to dynamically generate the review questions.
+  - Universal questions (if any) are added alongside the Guide-based questions.
+  - For each guide turned into a question the admin selects whether that response is to be delinated 
+- Responses are collected as one of the following, depending on the context:
+  - **Text**
+  - **Multiple choice**
+  - **Rating**
+- The app formats the Guide entries into question prompts, e.g.,  
+  *"How would you rate your performance in { guide.task }?"*
+
+
+
+
+ 

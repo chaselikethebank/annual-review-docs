@@ -65,3 +65,75 @@ Sanctum can help manage tenant-specific authentication by:
 
 1. **Scoping Tokens to Tenant IDs**: Ensure tokens are tied to specific tenants.
 2. **Isolating API Authentication**: Ensure authentication is separated for each tenant.
+
+## Setting Up Sanctum for Multitenancy
+1. **Install Sanctum:**
+
+```bash
+composer require laravel/sanctum
+php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
+php artisan migrate
+```
+
+2. **Configure Sanctum Middleware: Update the api middleware group in**
+```php
+'api' => [
+    \Laravel\Sanctum\Http\Middleware\EnsureFrontendRequestsAreStateful::class,
+    'throttle:api',
+    \Illuminate\Routing\Middleware\SubstituteBindings::class,
+],
+```
+
+3. **Issue Tokens with Tenant Context: Ensure each token is scoped to a tenant.**
+```php
+$token = $user->createToken('access-token', ['tenant:'.$tenant->id]);
+```
+
+4. **Guard API Routes with Middleware: Use middleware to verify tenant tokens.**
+
+```php
+Route::middleware(['auth:sanctum', 'tenant'])->group(function () {
+    Route::get('/user', function (Request $request) {
+        return $request->user();
+    });
+});
+
+```
+
+#### Token Abilities Example
+
+Add specific abilities (e.g., read, write) when issuing tokens:
+```php
+$token = $user->createToken('access-token', ['read', 'write']);
+
+```
+
+```php
+if ($request->user()->tokenCan('read')) {
+    // Allow access
+}
+
+```
+
+4. **Putting It All Together**
+
+- Middleware for Tenant Identification: Identify and set the tenant based on subdomains or headers.
+
+- Sanctum for API Authentication: Issue and validate tokens scoped to the tenant.
+
+- Custom Database Connections: Use the tenant ID to switch database connections dynamically.
+
+#### Example Application Flow
+
+- A user makes a request to tenant1.example.com/api/data.
+- The middleware identifies tenant1 and sets the tenant in the application context.
+- Sanctum validates the API token for the tenant1 scope.
+- The database connection is dynamically switched to tenant1's database.
+
+This architecture ensures that tenant isolation is maintained at every level of the request lifecycle.
+
+
+
+
+
+

@@ -5,6 +5,11 @@
 - As a manager, I can edit or delete job review guides.
 - As an employee, I can view job review guides assigned to my manager.
 
+## Dynamic Review Question Generation
+- As an admin, I can define a set of responsibilities or tasks in a guide that dynamically generates review questions for each Job Role.
+- As an employee, I can answer review questions that are dynamically generated based on my Job Role responsibilities and universal questions.
+- As an app developer, I can store only user responses tied to the Review, Guide, and JobRole without saving pre-generated questions.
+
 ## Email Notifications
 - As an admin, I can configure email templates for notifications.
 - As an admin, I can send email notifications for pending forms.
@@ -27,3 +32,5 @@
 - As an admin, I can customize thresholds for conditional flags.
 - As a manager, I can see a matrix of evaluation scores.
 - As an admin, I can export data from the dashboard if needed.
+
+
