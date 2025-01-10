@@ -11,7 +11,7 @@
 
 ## Prompt Display
 - The app formats the Guide entries into question prompts, e.g.,  
-  *"How would you rate your performance in {{ guide.task }}?"*
+  *"How would you rate your performance in { guide.task }?"*
 - Responses are collected as one of the following, depending on the context:
   - **Text**
   - **Multiple choice**

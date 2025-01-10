@@ -32,5 +32,3 @@
 - As an admin, I can customize thresholds for conditional flags.
 - As a manager, I can see a matrix of evaluation scores.
 - As an admin, I can export data from the dashboard if needed.
-
-

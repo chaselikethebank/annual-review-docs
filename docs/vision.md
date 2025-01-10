@@ -82,7 +82,7 @@ Reviews criteria are created 1/2 per the period's universal questions/prompts an
   - **Multiple choice**
   - **Rating**
 - The app formats the Guide entries into question prompts, e.g.,  
-  *"How would you rate your performance in  guide.task ?"*
+  *"How would you rate your performance in { guide.task }?"*
 
 
 
