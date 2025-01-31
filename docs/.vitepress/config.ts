@@ -67,7 +67,7 @@ export default {
         text: "Terminology",
         collapsible: false,
         items: [
-          { text: "Terminology", link: "/Terminology" },
+          { text: "Terminology and Workflow", link: "/Terminology" },
         ],
       },
       {
