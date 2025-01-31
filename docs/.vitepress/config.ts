@@ -64,6 +64,13 @@ export default {
         ],
       },
       {
+        text: "Terminology",
+        collapsible: false,
+        items: [
+          { text: "Terminology", link: "/Terminology" },
+        ],
+      },
+      {
         text: "Future Feature Set", 
         collapsible: false, 
         items: [
